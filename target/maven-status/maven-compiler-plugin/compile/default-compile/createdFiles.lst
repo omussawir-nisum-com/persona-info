@@ -1,0 +1,6 @@
+com\nisum\personainfo\controller\PersonaInfoController.class
+com\nisum\personainfo\model\PersonaInfo.class
+com\nisum\personainfo\repository\PersonaInfoRepository.class
+com\nisum\personainfo\service\PersonaInfoService.class
+com\nisum\personainfo\service\impl\PersonaInfoServiceImpl.class
+com\nisum\personainfo\Application.class
