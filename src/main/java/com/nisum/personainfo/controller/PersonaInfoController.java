@@ -29,7 +29,6 @@ public class PersonaInfoController {
     public ResponseEntity<PersonaInfo> getPersonaInfoById(@PathVariable("id") Integer personaInfoId) {
 
         PersonaInfo personaInfo = personaInfoService.getPersonaInfoById(personaInfoId);
-
         return ResponseEntity.ok().body(personaInfo);
     }
 
@@ -42,7 +41,6 @@ public class PersonaInfoController {
     public ResponseEntity<List<PersonaInfo>> getAllPersonaInfos() {
 
         List<PersonaInfo> personaInfo = personaInfoService.getAllPersonaInfos();
-
         return ResponseEntity.ok().body(personaInfo);
     }
 
@@ -56,7 +54,6 @@ public class PersonaInfoController {
     public ResponseEntity<Void> savePersonaInfo(@Valid @RequestBody PersonaInfo personaInfo) {
 
         personaInfoService.savePersonaInfo(personaInfo);
-
         return ResponseEntity.status(CREATED).build();
     }
 
@@ -70,7 +67,6 @@ public class PersonaInfoController {
     public ResponseEntity<Void> updatePersonaInfo(@Valid @RequestBody PersonaInfo personaInfo) {
 
         personaInfoService.updatePersonaInfo(personaInfo);
-
         return ResponseEntity.status(OK).build();
     }
 

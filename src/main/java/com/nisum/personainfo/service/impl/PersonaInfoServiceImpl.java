@@ -25,13 +25,12 @@ public class PersonaInfoServiceImpl implements PersonaInfoService {
     @Override
     public PersonaInfo getPersonaInfoById(Integer id) {
 
-            Optional<PersonaInfo> personaInfo = personaInfoRepository.findById(id);
-
-            if (personaInfo.isPresent()) {
-                return personaInfo.get();
-            } else {
-                throw new PersonaInfoNotFoundException("User not found");
-            }
+        Optional<PersonaInfo> personaInfo = personaInfoRepository.findById(id);
+        if (personaInfo.isPresent()) {
+            return personaInfo.get();
+        } else {
+            throw new PersonaInfoNotFoundException("User not found");
+        }
     }
 
     @Override
@@ -44,40 +43,34 @@ public class PersonaInfoServiceImpl implements PersonaInfoService {
     @Override
     public void savePersonaInfo(PersonaInfo personaInfo) {
 
-            if (personaInfoUtil.checkHairColour(personaInfo.getHairColour())) {
-
-                Optional<PersonaInfo> personaInfoObj = personaInfoRepository.findById(personaInfo.getId());
-
-                if(personaInfoObj.isPresent()) {
-                    throw new PersonaInfoRecordAlredyExistException("Record already exist");
-                }
-
-                personaInfoRepository.save(personaInfo);
-            } else {
-                throw new PersonaInfoCustomValidationException("Hair Colour is invalid");
+        if (personaInfoUtil.checkHairColour(personaInfo.getHairColour())) {
+            Optional<PersonaInfo> personaInfoObj = personaInfoRepository.findById(personaInfo.getId());
+            if(personaInfoObj.isPresent()) {
+                throw new PersonaInfoRecordAlredyExistException("Record already exist");
             }
-        }
+            personaInfoRepository.save(personaInfo);
 
+        } else {
+            throw new PersonaInfoCustomValidationException("Hair Colour is invalid");
+        }
+    }
 
     @Override
     public Optional<PersonaInfo> updatePersonaInfo(PersonaInfo personaInfo) {
 
             Optional<PersonaInfo> personaInfoObj = personaInfoRepository.findById(personaInfo.getId());
             if (personaInfoObj.isPresent()) {
-
                 return Optional.ofNullable(personaInfoRepository.save(personaInfo));
 
             } else {
                 throw new PersonaInfoNotFoundException("no record to update");
             }
-
     }
 
     @Override
     public void deletePersonaInfoById(Integer id) {
 
         Optional<PersonaInfo> personaInfo = personaInfoRepository.findById(id);
-
         if(personaInfo.isPresent()) {
             personaInfoRepository.deleteById(id);
         } else {
@@ -87,9 +80,7 @@ public class PersonaInfoServiceImpl implements PersonaInfoService {
 
     @Override
     public void deleteAllPersonaInfo() {
-
         personaInfoRepository.deleteAll();
-
     }
 
 }

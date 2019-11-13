@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d39d6c-0243-40ed-b243-8aa500d8ec14" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/nisum/personainfo/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nisum/personainfo/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/controller/PersonaInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/controller/PersonaInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/exception/CustomizedResponseEntityExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/exception/CustomizedResponseEntityExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/exception/PersonaInfoCustomValidationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/exception/PersonaInfoCustomValidationException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/exception/PersonaInfoNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/exception/PersonaInfoNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/exception/PersonaInfoRecordAlredyExistException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/exception/PersonaInfoRecordAlredyExistException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/service/PersonaInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/service/PersonaInfoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/service/impl/PersonaInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nisum/personainfo/service/impl/PersonaInfoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/persona-info-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/persona-info-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nisum/personainfo/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nisum/personainfo/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nisum/personainfo/controller/PersonaInfoControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nisum/personainfo/controller/PersonaInfoControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/controller/PersonaInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/controller/PersonaInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/model/PersonaInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/model/PersonaInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/impl/PersonaInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/impl/PersonaInfoServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,47 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersonaInfoServiceImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nisum/personainfo/service/PersonaInfoServiceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="62" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonaInfoUtilTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nisum/personainfo/util/PersonaInfoUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonaInfoControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nisum/personainfo/controller/PersonaInfoControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/nisum/personainfo/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,14 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonaInfoUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/util/PersonaInfoUtil.java">
+      <file leaf-file-name="HairColour.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/constant/HairColour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -92,8 +41,34 @@
       <file leaf-file-name="PersonaInfoServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/impl/PersonaInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="54" />
+            <state relative-caret-position="244">
+              <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2785#2786#0" expanded="true" />
+                <element signature="e#2834#2835#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonaInfoRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/repository/PersonaInfoRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonaInfo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/model/PersonaInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +79,20 @@
       <file leaf-file-name="PersonaInfoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/controller/PersonaInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="244">
+              <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonaInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/PersonaInfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
@@ -182,23 +169,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/exception/ExceptionResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/constant/HairColour.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/util/PersonaInfoUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/model/PersonaInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/exception/PersonaInfoException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/exception/PersonaInfoCustomValidationException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/exception/PersonaInfoNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/exception/PersonaInfoRecordAlredyExistException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/exception/CustomizedResponseEntityExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/PersonaInfoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/impl/PersonaInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1.2__insert_data.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/nisum/personainfo/util/PersonaInfoUtilTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nisum/personainfo/service/PersonaInfoServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nisum/personainfo/controller/PersonaInfoControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/controller/PersonaInfoController.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/nisum/personainfo/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/controller/PersonaInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/impl/PersonaInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nisum/personainfo/model/PersonaInfo.java" />
       </list>
     </option>
   </component>
@@ -710,7 +697,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/impl/PersonaInfoServiceImpl.java</url>
-          <line>46</line>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -792,37 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/constant/HairColour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/exception/ExceptionResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/model/PersonaInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/repository/PersonaInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,16 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/PersonaInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.2__insert_data.sql">
       <provider editor-type-id="OdpsQlGraph" />
       <provider selected="true" editor-type-id="OdpsQlEditor">
@@ -927,30 +877,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/impl/PersonaInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/nisum/personainfo/controller/PersonaInfoControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/controller/PersonaInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -971,20 +901,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="48" selection-start-line="48" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/nisum/personainfo/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/constant/HairColour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="48" selection-start-line="48" selection-end-line="62" selection-end-column="12" />
+        <state relative-caret-position="144">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/controller/PersonaInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/PersonaInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/service/impl/PersonaInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2785#2786#0" expanded="true" />
+            <element signature="e#2834#2835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/repository/PersonaInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nisum/personainfo/model/PersonaInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

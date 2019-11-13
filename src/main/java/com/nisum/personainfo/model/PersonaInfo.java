@@ -17,11 +17,11 @@ public class PersonaInfo implements Serializable {
     @Pattern(regexp="^[A-Za-z]*$" , message = "Name is invalid")
     private String name;
 
-    @Pattern(regexp="^[A-Za-z]*$" , message = " Last name is invalid")
+    @Pattern(regexp="^[A-Za-z]*$" , message = "Last name is invalid")
     private String lastName;
 
-    @NotEmpty(message = "address is required")
-    @Pattern(regexp="^[A-Za-z0-9 ]*$" , message = " address is invalid")
+    @NotEmpty(message = "Address is required")
+    @Pattern(regexp="^[A-Za-z0-9 ]*$" , message = "Address is invalid")
     private String address;
 
     @NotNull(message = "Phone number is required")
