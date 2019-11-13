@@ -1,6 +1,13 @@
+com\nisum\personainfo\constant\HairColour.class
+com\nisum\personainfo\exception\CustomizedResponseEntityExceptionHandler.class
+com\nisum\personainfo\util\PersonaInfoUtil.class
+com\nisum\personainfo\exception\PersonaInfoCustomValidationException.class
+com\nisum\personainfo\exception\ExceptionResponse.class
+com\nisum\personainfo\service\impl\PersonaInfoServiceImpl.class
+com\nisum\personainfo\Application.class
+com\nisum\personainfo\exception\PersonaInfoNotFoundException.class
 com\nisum\personainfo\controller\PersonaInfoController.class
 com\nisum\personainfo\model\PersonaInfo.class
 com\nisum\personainfo\repository\PersonaInfoRepository.class
 com\nisum\personainfo\service\PersonaInfoService.class
-com\nisum\personainfo\service\impl\PersonaInfoServiceImpl.class
-com\nisum\personainfo\Application.class
+com\nisum\personainfo\exception\PersonaInfoRecordAlredyExistException.class
