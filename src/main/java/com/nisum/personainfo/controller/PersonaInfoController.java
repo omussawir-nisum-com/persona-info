@@ -7,7 +7,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-
 import java.util.List;
 
 import static org.springframework.http.HttpStatus.CREATED;
@@ -20,6 +19,12 @@ public class PersonaInfoController {
     @Autowired
     PersonaInfoService personaInfoService;
 
+    /**
+     * returns PersonaInfo Object againt given ID
+     *
+     * @param personaInfoId
+     * @return
+     */
     @GetMapping("/{id}")
     public ResponseEntity<PersonaInfo> getPersonaInfoById(@PathVariable("id") Integer personaInfoId) {
 
@@ -28,6 +33,11 @@ public class PersonaInfoController {
         return ResponseEntity.ok().body(personaInfo);
     }
 
+    /**
+     * return list of all the PersonaInfo Objects
+     *
+     * @return
+     */
     @GetMapping()
     public ResponseEntity<List<PersonaInfo>> getAllPersonaInfos() {
 
@@ -36,6 +46,12 @@ public class PersonaInfoController {
         return ResponseEntity.ok().body(personaInfo);
     }
 
+    /**
+     * persist the given PersonaInfo object into database after validating the given json
+     *
+     * @param personaInfo
+     * @return
+     */
     @PostMapping()
     public ResponseEntity<Void> savePersonaInfo(@Valid @RequestBody PersonaInfo personaInfo) {
 
@@ -44,6 +60,12 @@ public class PersonaInfoController {
         return ResponseEntity.status(CREATED).build();
     }
 
+    /**
+     * update the given PersonaInfo object into database after validating the given json
+     *
+     * @param personaInfo
+     * @return
+     */
     @PutMapping()
     public ResponseEntity<Void> updatePersonaInfo(@Valid @RequestBody PersonaInfo personaInfo) {
 
@@ -52,6 +74,12 @@ public class PersonaInfoController {
         return ResponseEntity.status(OK).build();
     }
 
+    /**
+     * delete the PersonaInfo object againt given id
+     *
+     * @param personaInfoId
+     * @return
+     */
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletePersonaInfoById(@PathVariable("id") Integer personaInfoId) {
 
@@ -59,6 +87,11 @@ public class PersonaInfoController {
         return ResponseEntity.status(OK).build();
     }
 
+    /**
+     * delete all the PersonaInfo objects from database
+     *
+     * @return
+     */
     @DeleteMapping()
     public ResponseEntity<Void> deleteAllPersonaInfo() {
 
